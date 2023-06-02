@@ -8,13 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StreamsApplication {
 
 	public static void main(String[] args) {
-        callMethod();
 		SpringApplication.run(StreamsApplication.class, args);
 	}
-
-    private static void callMethod() {
-
-        Departments departments = new Departments();
-    }
-
 }
